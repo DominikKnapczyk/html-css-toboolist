@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', Arial;
+  font-family: 'Rubik', Arial;
 }
 
 body {
@@ -38,6 +38,52 @@ header {
   padding-left: 10px;
 
   font-size: 70px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
+/* NAV */
+
+nav {
+  margin: auto;
+  margin-top: 70px;
+  width: 70%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid black;
+
+}
+
+.task-button {
+  border: none;
+  color: white;
+  background-color: #47ADF1;
+  padding: 10px 20px;
+  margin-left: 90px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.section-button {
+  border: 1px solid #CED3D7;
+  color: #CED3D7;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+
+}
+
+
+/* MAIN */
+
+main {
+  margin: auto;
+  margin-top: 2px;
+  margin-bottom: 2%;
+  width: 70%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
