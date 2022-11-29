@@ -1,17 +1,16 @@
-/* General */
+/* GENERAL */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', Arial;
 }
 
 body {
   background-color: #F6F8F9;
 }
 
-/* Header */
+/* HEADER */
 
 header {
   width: 100%;
@@ -19,6 +18,7 @@ header {
   background-color: white;
   display: flex;
   align-items: center;
+  font-family: 'Rubik', Arial;
 }
 
 
@@ -50,6 +50,7 @@ nav {
   padding: 20px;
   background-color: white;
   border-radius: 8px 8px 0 0;
+  font-family: 'Rubik', Arial;
 }
 
 .task-button {
@@ -83,6 +84,9 @@ main {
   width: 70%;
   padding: 20px;
   background-color: white;
+
+  color: #3A3E48;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
@@ -101,7 +105,7 @@ section {
 }
 
 .section-text{
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .check-simbol {
@@ -122,6 +126,8 @@ section {
   margin-right: 5px;
 }
 
+/* MAIN BUTTONS */
+
 .editorial-button, 
 .goals-button,
 .recruiting-button,
@@ -133,6 +139,7 @@ section {
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 18px;
+  font-family: 'Rubik', Arial;
 }
 
 .editorial-button {
